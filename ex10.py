@@ -1,0 +1,21 @@
+#frase = str(input('qual o seu nome: '))
+#print('Seu nome sem os espaços tem o total de letras:')
+#print(len(frase.strip()))
+#nome = (frase.upper())
+#print('Seu nome em maiusculo fica: {}' .format(nome))
+#nome2 = (frase.lower())
+#print('Seu nome todo em minusculo fica: {}' .format(nome2))
+#nome3 = (len(frase.split()[0]))
+#print('Seu primeiro nome tem um total de {} caracteres'.format(nome3)) 
+#nome4 = (frase.title())
+#print ('Seu nome com apenas a primeira letra Maiuscula fica: {}'.format(nome4))
+
+#outro ex de como fazer esse cód. (jeito que o guanabara fez)
+
+nome = str(input('Digite seu nome ganafanhoto: ')).strip()
+print('Analisando seu nome...')
+print('Seu nome em maiusculo fica: {}'. format(nome.upper()))
+print('Seu nome em minusculo fica: {}'.format(nome.lower()))
+print('Seu nome tem ao todo {} letras'.format(len(nome)-nome.count(' ')))
+print('Seu primeiro nome tem {} letras'.format(nome.find(' ')))
+
