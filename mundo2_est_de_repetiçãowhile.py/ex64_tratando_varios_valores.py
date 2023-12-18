@@ -3,9 +3,10 @@ quantidade_de_numeros_digitadas = 0
 numero_escolhido = 0 
 while True:
     numero_escolhido = int(input('Digite um numero: '))  
+
     if numero_escolhido == 999:
         break
-
+    
     quantidade_de_numeros_digitadas = quantidade_de_numeros_digitadas + 1
     soma_total = soma_total + numero_escolhido
         

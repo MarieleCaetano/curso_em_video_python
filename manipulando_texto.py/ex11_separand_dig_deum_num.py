@@ -10,7 +10,7 @@
 #print('unidade:{}'.format(num4))
 
 
-#Exemplo do guanabara muito pika
+#Exemplo do guanabara 
 
 
 num = int(input('Digite um numero: '))

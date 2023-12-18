@@ -13,3 +13,6 @@ elif idade > 19 and idade <= 20:
     print(f'Sua idade é{idade}, então se encaixa na categoria sênior')
 elif idade > 20:
     print(f'Sua idade é {idade}, então é categoria master')
+
+#Aqui calculei a idade novamente e dependendo da idade, há categorias, tipo mirim, infantil
+#junior, sênior e master que são mostradas dependendo da idade da pessoa.

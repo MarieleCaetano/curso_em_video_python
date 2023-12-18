@@ -2,7 +2,6 @@
 from datetime import date
 datadehoje = date.today()
 Anoatual = datadehoje.year 
-
 lista_de_pessoas_que_sao_menor = []
 for c in range(1, 8):
     ano_de_nasc = int(input(f'Digite o ano de nascimento{c}:'))

@@ -1,4 +1,4 @@
-#ex35 - mundo 1 - aula 10 e ex42 do mundo 2
+#ex35 - mundo 1 - aula 10 e ex 42 do mundo 2 / exerc. modificado e melhorado
 
 tr1 = float(input('Digite o tamanho da primeira reta: '))
 tr2 = float(input('Digite o tamanho da segunda reta: '))

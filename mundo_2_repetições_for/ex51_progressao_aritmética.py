@@ -9,5 +9,5 @@ quantoselem = termo + (vezes-1)
 elem = quantoselem + 1
 
 for var in range(termo, elem, razão):
-    print(var)
+    print(f'{var}', end=' -> ')
     soma= soma+var

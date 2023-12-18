@@ -1,5 +1,3 @@
-import random
-
 tabuada = 1
 while True:
     tabuada = int(input("digite um numero  "))

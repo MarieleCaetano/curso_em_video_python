@@ -10,15 +10,15 @@
 #print(f'essa é a soma numeros multiplos de 3 entre o e 500 impares {total} e os valores contados foram {cont}')
 
 #ex49
-tab = int(input("digite um numero  "))
-for c in range (0, 11):
-    print(f'{tab} X {c} = {tab*c}')
+#tab = int(input("digite um numero  "))
+#for c in range (0, 11):
+#    print(f'{tab} X {c} = {tab*c}')
 
 #ex50
-#total = 0
-#for i in range(1, 7):
-#    numero = int(input(f"Digite o numero {i}: "))
-#    if numero % 2 == 0:
-#        total = numero + total
+total = 0
+for i in range(1, 7):
+    numero = int(input(f"Digite o numero {i}: "))
+    if numero % 2 == 0:
+        total = numero + total
 
-#print(total)
+print(total)

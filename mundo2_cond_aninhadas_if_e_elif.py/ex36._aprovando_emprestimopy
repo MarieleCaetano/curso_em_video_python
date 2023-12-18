@@ -9,7 +9,7 @@ print(f'trinta porcento do seu salário seria {trintaporcentdosalario}')
 anostransfEmMeses =  parc * 12 
 valorDacasadistribuidoaolongodosmeses = valorcasa / anostransfEmMeses
 
-print(f'as parcelas por mês vão ser de {valorDacasadistribuidoaolongodosmeses}')
+print('as parcelas por mês vão ser de {:.2f}'.format(valorDacasadistribuidoaolongodosmeses))
 
 if valorDacasadistribuidoaolongodosmeses > trintaporcentdosalario:
     print('Infelizmente, por ultrapassar os 30% seu emprestimo não foi aprovado')

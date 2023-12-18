@@ -31,4 +31,20 @@ print(""" formar de pagamento
 [ 3 ] 2x no cartão
 [ 4 ] 3x ou mais no cartão""")
 opção = int(input('Qual a opção? '))
-
+if opção == 1:
+    total = preço - (preço * 10 / 100)
+elif opção == 2:
+    total = preço - (preço * 5 / 100)
+elif opção == 3:
+    total = preço
+    parcela = total / 2
+    print('Sua compra será parcelada em 2x de {} sem juros'.format(parcela))
+elif opção == 4:
+    total = preço + (preço * 20 / 100)
+    totalparc = int(input('Quantas parcelas? '))
+    parcela = total / totalparc
+    print('Sua compra sairá em {} vezes e saira {}  com juros'.format(totalparc, parcela))
+else:
+    total = 0
+    print ('opção invalida')
+print('Sua compra de {:.2f} vai custar {} no final'.format(preço, total))
