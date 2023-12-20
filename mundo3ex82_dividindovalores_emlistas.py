@@ -13,11 +13,11 @@ while continuar == 'S':
             break
         elif continuar != 'S' or continuar != 'N':
             print('Comando invalido tente novamente')
-for n in valores:
-    if n % 2 == 0:
-        pares += valores
-    else:
-        impares += valores
+for s in valores:
+    if s % 2 == 0:
+        pares.append(s)
+    elif s % 2 != 0:
+        impares.append(s)
     
 print(f'Você digitou os numeros {valores}')
 print('**' * 30)
