@@ -80,7 +80,7 @@ for t in galera:
     if t['idade'] >= mediacao:
         print('     ')
         for k, q in t.items():
-            print(f'{k} == {q};', end= '')
-        print()
+            print(f'{k} == {q} ', end= '')
+        print('     ')
 print('>> encerrado <<<')
 

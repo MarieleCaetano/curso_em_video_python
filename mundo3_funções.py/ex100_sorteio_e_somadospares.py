@@ -19,6 +19,9 @@ for c in range(0,5):
     numsorteados.append(sort)
 sorteio(numsorteados)
 
+
+
+
 #jeito que o guanabara fez
 def sorteia(lista):
     print('Sorteando 5 valores da lista')

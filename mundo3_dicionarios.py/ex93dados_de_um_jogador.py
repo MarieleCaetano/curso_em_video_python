@@ -3,7 +3,7 @@ partidas = 0
 gols = []
 
 dados_do_jogador['nome'] = str(input('Nome: '))
-dados_do_jogador['quantidade de partidas'] = int(input('Quantas partidas? [0 para encerrar] '))
+dados_do_jogador[f'quantidade de partidas do {dados_do_jogador["nome"]}'] = int(input('Quantas partidas? [0 para encerrar] '))
 partidas += dados_do_jogador['quantidade de partidas']
 
 if dados_do_jogador['quantidade de partidas'] > 0:
